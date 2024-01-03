@@ -1,0 +1,121 @@
+body{
+    background-image: url(img/bg.jpg);
+    background-repeat: repeat;
+    background-size: 250px 250px;
+}
+
+#banner{
+    text-align: center;
+}
+
+#ban1{
+    font-weight: bold;
+    font-size:3vw;
+    font-family: Gaegu;
+    padding:15px;
+}
+
+#ban2{
+    font-size: 2vw;
+    font-family: Gaegu;
+}
+
+#frog_words{
+    display: block;
+    position: absolute;
+    left: 80px;
+    height: 50%;
+    width: 60%;
+    top: 25%;
+    margin-bottom: 0%;
+    font-size: 1.5pc;
+}
+
+
+/* @keyframes float_frog{
+    0% { bottom: 0%;}
+    50% { bottom: 2%;}
+    100% { bottom: 0%;}
+}
+
+@keyframes float_bubble{
+    0% { top: 10%;}
+    50% { top: 8%;}
+    100% { top: 10%;}
+}
+
+@keyframes float_speech{
+    0% { top: 18%;}
+    50% { top: 16%;}
+    100% { top: 18%;}
+}
+
+@keyframes float_answer{
+    0% { top: 38%;}
+    50% { top: 36%;}
+    100% { top: 38%;}
+} */
+
+#frog_pic{
+    width: 30%;
+    height: 50%;
+    position: fixed;
+    right:0px;
+    bottom:0%;
+    /* animation-name: float_frog;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+
+.bubble{
+    position: fixed;
+    height: 45%;
+    width: 25%;
+    background-color:rgb(247, 247, 247);
+    border-radius: 100%;
+    left: 70%;
+    bottom: 45%;
+    visibility: visible;
+}
+
+.no-bubble{
+    visibility: hidden;
+}
+
+
+#prompt{
+    position: fixed;
+    right:8%;
+    bottom:57%;
+    /* animation-name: float_speech;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+    font-size: 2vw;
+    font-family: Gaegu;
+    text-align:center;
+}
+
+#answer{
+    position: fixed;
+    right: 12%;
+    bottom:55%;
+    /* animation-name: float_answer;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+    width: 10%;
+    text-align: center;
+}
+
+#submit{
+    position: fixed;
+    right: 15%;
+    bottom:49%;
+}
+
+
+
+
+
+
+
+
